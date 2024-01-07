@@ -5,16 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png" />
     <title>Frontend Mentor | Blog preview card</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@600;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    Learning
+    <main>
+      <article class="post">
+        <img class="post__img" src="./assets/images/illustration-article.svg" width="279px" height="200px" />
 
-    Published 21 Dec 2023
+        <div class="post__content">
+          <ul class="post__categories">
+            <li>Learning</li>
+          </ul>
 
-    HTML & CSS foundations
+          <p class="post__publish-date">Published 21 Dec 2023</p>
 
-    These languages are the backbone of every website, defining structure, content, and presentation.
+          <h1 class="post__title">HTML & CSS foundations</h1>
 
-    Greg Hooper
+          <p class="post__subtitle">
+            These languages are the backbone of every website, defining
+            structure, content, and presentation.
+          </p>
+
+          <p class="post__author">
+            <img src="./assets/images/image-avatar.webp" width="32px" height="32px" />
+            Greg Hooper
+          </p>
+        </div>
+      </article>
+    </main>
   </body>
 </html>
